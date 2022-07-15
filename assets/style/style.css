@@ -88,7 +88,7 @@ p {
 
 /*footer*/
 .footer {
-    height: 80vh;
+    height: 70vh;
     position: relative;
 }
 
@@ -222,6 +222,25 @@ p {
         top: -20%;
     }
 
+
+}
+
+/*Everything UltraWide*/
+@media screen and (min-width: 1919px) {
+    .background-svg {
+        position: absolute;
+        width: 60em;
+        z-index: 0;
+        left: 55%;
+        top: -30%;
+    }
+
+    .container_intro_ow {
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
     /*footer logo*/
     .footer .intro .header {
         padding-top: 4em;
@@ -241,23 +260,6 @@ p {
         font-size: 35px;
         padding-left: 4.5em;
         margin-top: -1.3em;
-    }
-}
-
-/*Everything UltraWide*/
-@media screen and (min-width: 1919px) {
-    .background-svg {
-        position: absolute;
-        width: 60em;
-        z-index: 0;
-        left: 55%;
-        top: -30%;
-    }
-
-    .container_intro_ow {
-        max-width: 100%;
-        padding: 0;
-        margin: 0;
     }
 }
 
