@@ -13,6 +13,21 @@ body {
     overflow-x: hidden;
 
 }
+.VisualCapture{
+    color: var(--black);
+}
+
+.VisualCapture:hover{
+    color: var(--gray);
+    background-color: black;
+}
+
+/*removes whitespace */
+.container_intro_ow {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
 
 h1 {
     font-size: 142px;
@@ -110,11 +125,11 @@ p {
 }
 
 .footer .intro .header h1 {
-    font-size: 80px;
+    font-size: 100px;
 }
 
 .footer .intro .header h3 {
-    font-size: 18px;
+    font-size: 24px;
     padding-left: 4.5em;
     margin-top: -1.3em;
 }
@@ -146,6 +161,13 @@ p {
     margin: 1.3em
 }
 
+.footerLocationInfo{
+    position: absolute;
+    bottom: 0;
+    right: -50%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
 
 .footerCopyrightInfo {
     position: absolute;
@@ -163,7 +185,6 @@ p {
     padding-top: 2em;
     padding-bottom: 2em;
 }
-
 
 .content_background {
     position: relative;
@@ -235,11 +256,6 @@ p {
         top: -30%;
     }
 
-    .container_intro_ow {
-        max-width: 100%;
-        padding: 0;
-        margin: 0;
-    }
 
     /*footer logo*/
     .footer .intro .header {
@@ -324,11 +340,7 @@ p {
         display: none;
     }
 
-    .container_intro_ow {
-        max-width: 100%;
-        padding: 0;
-        margin: 0;
-    }
+
 
     .AryoB {
         margin-top: 4em;
@@ -416,6 +428,16 @@ p {
 
 .spacer {
     padding-top: 2.2em;
+}
+.darkA:hover {
+    text-decoration: none;
+    color: var(--gray);
+    border-bottom: 1px solid var(--gray);
+}
+.darkA {
+    text-decoration: none;
+    color: var(--black);
+    border-bottom: 1px solid var(--black);
 }
 
 .color-black {

@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 83 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g transform="matrix(1,0,0,1,-9760.62,-10265.4)">
-        <g transform="matrix(1,-0,-0,1,9760.62,10265.4)">
-            <use xlink:href="#_Image1" x="0" y="0" width="82.734px" height="82.734px" transform="matrix(0.9968,0,0,0.9968,0,0)"/>
+    <g transform="matrix(0.831325,0,0,0.831325,6.8672,6.8672)">
+        <rect x="0" y="0" width="83" height="83" style="fill:none;"/>
+    </g>
+    <g transform="matrix(0.831325,0,0,0.831325,6.8672,6.8672)">
+        <g>
+            <use id="_Image1_" serif:id="_Image1" xlink:href="#_Image1" x="0" y="0" width="83px" height="83px"/>
         </g>
     </g>
     <defs>
