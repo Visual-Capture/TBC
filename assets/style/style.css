@@ -183,7 +183,7 @@ p {
     border-right: 2px solid white;
 }
 
-.noMarginMottom p {
+.noMarginBottom p {
     margin-bottom: 0 !important;
 }
 .footerContactInfo {
@@ -325,6 +325,10 @@ p {
 
 /*Everything Mobile*/
 @media screen and (max-width: 720px) {
+
+    .right-border{
+        border-right: 0 solid white;
+    }
     .header {
         color: var(--white);
         width: fit-content;
