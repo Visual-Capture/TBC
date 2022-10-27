@@ -162,9 +162,10 @@ p {
 }
 
 .footerLocationInfo{
+    font-size: 20px;
     position: absolute;
     bottom: 0;
-    right: -50%;
+    right: 0;
     padding-top: 2em;
     padding-bottom: 2em;
 }
@@ -178,13 +179,21 @@ p {
     color: var(--gray);
 }
 
+.right-border{
+    border-right: 2px solid white;
+}
+
+.noMarginMottom p {
+    margin-bottom: 0 !important;
+}
 .footerContactInfo {
+    width: 26em;
     font-size: 20px;
     position: absolute;
     bottom: 0;
     right: 0;
     padding-top: 2em;
-    padding-bottom: 2em;
+    margin-bottom: 2em;
 }
 
 .content_background {
