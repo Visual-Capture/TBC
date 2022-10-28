@@ -224,10 +224,10 @@ p {
 
 .AryoB {
     position: absolute;
-    width: 32em;
+    width: 24em;
     top: 50%;
     transform: translateY(-50%);
-    z-index: 0;
+    z-index: 1;
 }
 
 .content {
@@ -237,9 +237,10 @@ p {
 
 .content-2 {
     position: relative;
-    z-index: 1;
-    margin: 4em 0 5em 26em;
+    z-index: 0;
+    margin: 5em 0 5em 12em;
     padding: 3em;
+    padding-left: 15em;
 }
 
 
