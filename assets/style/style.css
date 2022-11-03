@@ -536,12 +536,13 @@ p {
         padding-bottom: 2em;
         margin-left: 1em;
         margin-right: 1em;
+        width: 80%;
     }
 }
 
 @media screen and (max-width: 375px) {
     .container_ow {
-        padding: 0;
+        padding: 0.8em;
         width: 100%;
         max-width: 100%;
     }
