@@ -296,10 +296,20 @@ p {
         top: -20%;
     }
 
-    .content {
+    .blob {
+        background: black;
+        border-radius: 50%;
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+        height: 28px;
+        width: 28px;
+        animation: pulse-black 2s infinite;
+        transform: scale(1) translate(-50%, -50%);
+        position: absolute;
+        right: 14.1%;
+        top: -9.5px;
+    }
 
-        /*margin: 5em 0 5em 12em;*/
-        /*padding: 3em 3em 3em 15em;*/
+    .content {
         margin: 5em 0 5em 14em;
         padding: 6em 5em 6em 14em;
     }
@@ -330,6 +340,18 @@ p {
         top: -30%;
     }
 
+    .blob {
+        background: black;
+        border-radius: 50%;
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+        height: 38px;
+        width: 38px;
+        animation: pulse-black 2s infinite;
+        transform: scale(1) translate(-50%, -50%);
+        position: absolute;
+        right: 14.1%;
+        top: -15.5px;
+    }
 
     /*footer logo*/
     .footer .intro .header {
