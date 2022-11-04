@@ -113,6 +113,7 @@ p {
     position: absolute;
     right: 14.15%;
     top: -1.5px;
+    margin-right: 3.5%;
 }
 
 @keyframes pulse-black {
@@ -132,9 +133,10 @@ p {
     }
 }
 
-.timeline {
-    width: 100%;
-    max-width: 100%;
+.timeline { 
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
 }
 
 /*footer*/
@@ -261,10 +263,6 @@ p {
     transform: translateY(-50%);
 }
 
-.lettersAB {
-    display: none;
-}
-
 .AryoB {
     position: absolute;
     width: 24em;
@@ -307,27 +305,8 @@ p {
         position: absolute;
         right: 14.1%;
         top: -9.5px;
+        margin-right: 3.5%;
     }
-
-    .content {
-        margin: 5em 0 5em 14em;
-        padding: 6em 5em 6em 14em;
-    }
-
-    .letterB {
-        display: none;
-    }
-
-    .lettersAB {
-        display: block;
-        position: absolute;
-        width: 26em;
-        left: 0;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-
-
 }
 
 /*Everything UltraWide*/
@@ -394,10 +373,6 @@ p {
         transform: translateY(-50%);
     }
 
-    .lettersAB {
-        display: none;
-    }
-
     .AryoB {
         position: absolute;
         width: 32em;
@@ -420,6 +395,10 @@ p {
 
 /*Everything Mobile*/
 @media screen and (max-width: 720px) {
+
+    .timeline {
+        width: 100%;
+    }
 
     .right-border {
         border-right: 0 solid white;
@@ -449,11 +428,6 @@ p {
     .letterB {
         display: none;
     }
-
-    .lettersAB {
-        display: none;
-    }
-
 
     .AryoB {
         margin-top: 4em;
@@ -492,6 +466,7 @@ p {
         position: absolute;
         right: 14.225%;
         top: 4.5px;
+        margin-right: 3.5%;
     }
 
     /*footer logo*/
