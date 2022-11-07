@@ -133,7 +133,7 @@ p {
     }
 }
 
-.timeline { 
+.timeline {
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
@@ -400,6 +400,10 @@ p {
         width: 100%;
     }
 
+    .mobile-align{
+      padding: 0;
+    }
+
     .right-border {
         border-right: 0 solid white;
     }
@@ -500,8 +504,8 @@ p {
         position: relative;
         padding-top: 2em;
         padding-bottom: 2em;
-        margin-left: 2em;
-        margin-right: 2em;
+        margin-left: 15px;
+        margin-right: 15px;
         color: var(--gray);
     }
 
@@ -509,8 +513,8 @@ p {
         position: relative;
         padding-top: 2em;
         padding-bottom: 2em;
-        margin-left: 1em;
-        margin-right: 1em;
+        margin-left: 15px;
+        margin-right: 15px;
         width: 80%;
     }
 }
