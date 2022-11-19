@@ -139,6 +139,10 @@ p {
     width: 90%;
 }
 
+.timelineMobile {
+    display: none;
+}
+
 /*footer*/
 .footer {
     height: 70vh;
@@ -397,7 +401,17 @@ p {
 @media screen and (max-width: 720px) {
 
     .timeline {
+        display: none;
+    }
+
+    .timelineMobile {
         width: 100%;
+        overflow-x: scroll;
+        display: flex;
+        padding: 0;
+    }
+    .timelineImg{
+        width: 65em;
     }
 
     .mobile-align{
@@ -460,17 +474,8 @@ p {
     }
 
     .blob {
-        background: black;
-        border-radius: 50%;
-        box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-        height: 8px;
-        width: 8px;
-        animation: pulse-black 2s infinite;
-        transform: scale(1) translate(-50%, -50%);
-        position: absolute;
-        right: 14.225%;
-        top: 4.5px;
-        margin-right: 3.5%;
+        right: 6.9em;
+        top: 17.6em;
     }
 
     /*footer logo*/
