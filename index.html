@@ -7,6 +7,8 @@
     <link rel="icon" type="image/x-icon" href="assets/images/general/favicon_tbc.ico">
     <link rel="stylesheet" href="assets/style/bootstrap.css">
     <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/Flickity.css">
+    <script src="assets/js/flickity.js"></script>
 </head>
 <body>
 
@@ -133,25 +135,37 @@
     </div>
 
     <picture class="position-relative">
-        <source type="image/webp" srcset="assets/images/homepage/webp/timeline.webp">
-        <source type="image/png" srcset="assets/images/homepage/png/timeline.png">
+        <source type="image/webp" srcset="assets/images/homepage/webp/TBC_timeline.webp">
+        <source type="image/png" srcset="assets/images/homepage/png/TBC_timeline.png">
         <img class="timeline" alt="">
         <div class="blob"></div>
     </picture>
 
 
     <div class="timelineMobile">
-        <picture class="position-relative">
-            <source type="image/webp" srcset="assets/images/homepage/webp/timeline.webp">
-            <source type="image/png" srcset="assets/images/homepage/png/timeline.png">
-            <img class="timelineImg" alt="">
-            <div class="blob"></div>
-        </picture>
+        <div class="carousel js-flickity">
+            <div class="carousel-cell">
+                <picture class="position-relative">
+                    <source type="image/webp" srcset="assets/images/homepage/webp/TBC_timeline_1.webp">
+                    <source type="image/png" srcset="assets/images/homepage/png/TBC_timeline_1.png">
+                    <img class="timelineImg" alt="Timeline 1">
+                </picture>
+            </div>
+            <div class="carousel-cell">
+                <picture class="position-relative">
+                    <source type="image/webp" srcset="assets/images/homepage/webp/TBC_timeline_2.webp">
+                    <source type="image/png" srcset="assets/images/homepage/png/TBC_timeline_2.png">
+                    <img class="timelineImg" alt="Timeline 2">
+                </picture>
+            </div>
+        </div>
     </div>
+
     <div class="spacer"></div>
     <div class="spacer"></div>
     <div class="spacer"></div>
 </div>
+
 
 
 <div class="color-black">
@@ -210,4 +224,4 @@
 
 
 </body>
-</html><!--TODO fix Hrefs in A tags-->
+</html>

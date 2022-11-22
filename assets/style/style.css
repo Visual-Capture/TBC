@@ -14,6 +14,27 @@ body {
 
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #e1e1e1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #111;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 .VisualCapture {
     color: var(--black);
 }
@@ -137,6 +158,12 @@ p {
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
+}
+
+.carousel-cell img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .timelineMobile {
@@ -405,10 +432,7 @@ p {
     }
 
     .timelineMobile {
-        width: 100%;
-        overflow-x: scroll;
-        display: flex;
-        padding: 0;
+        display: block;
     }
     .timelineImg{
         width: 65em;
@@ -471,11 +495,6 @@ p {
         margin: 0;
         padding: 1em 0 0;
         background-color: var(--background) !important;
-    }
-
-    .blob {
-        right: 6.9em;
-        top: 17.6em;
     }
 
     /*footer logo*/
