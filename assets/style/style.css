@@ -132,8 +132,8 @@ p {
     animation: pulse-black 2s infinite;
     transform: scale(1) translate(-50%, -50%);
     position: absolute;
-    right: 15.15%;
-    top: -1.5px;
+    right: 18.15%;
+    top: -1px;
     margin-right: 3.5%;
 }
 /*!*one additional timeline line*!*/
@@ -348,7 +348,7 @@ p {
         animation: pulse-black 2s infinite;
         transform: scale(1) translate(-50%, -50%);
         position: absolute;
-        right: 15.1%;
+        right: 18.2%;
         top: -9.5px;
         margin-right: 3.5%;
     }
@@ -373,7 +373,7 @@ p {
         animation: pulse-black 2s infinite;
         transform: scale(1) translate(-50%, -50%);
         position: absolute;
-        right: 15.1%;
+        right: 18.5%;
         top: -15.5px;
     }
 
